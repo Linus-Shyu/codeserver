@@ -32,14 +32,17 @@ pip install numpy
 
 sudo apt install nodejs
 
+sudo apt install npm
+
 # Vue
 
-npm install -g vue
-npm install @vue/cli -g
+sudo npm install -g vue
+
+sudo npm install @vue/cli -g
 
 # Hexo
 
-npm install hexo-cli -g
+sudo npm install hexo-cli -g
 
 # Rust
 
@@ -55,6 +58,6 @@ sudo apt install gcc
 
 # BT
 
-if [ -f /usr/bin/curl ];then curl -sSO https://download.bt.cn/install/install_panel.sh;else wget -O install_panel.sh https://download.bt.cn/install/install_panel.sh;fi;bash install_panel.sh ed8484bec
+sudo wget -O install.sh http://download.bt.cn/install/install-ubuntu_6.0.sh && sudo bash install.sh ed8484bec
 
 
