@@ -57,13 +57,13 @@ This project is a shell script that configures a Linux development server, elimi
 Clone the project with git
 
 ```shell
-git clone 
+git clone https://github.com/Linus-Shyu/codeserver.git
 ```
 
 Enter the project directory
 
 ```shel
-cd 
+cd XXX
 ```
 
 startup script
