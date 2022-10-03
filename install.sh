@@ -14,6 +14,8 @@ sudo apt install vim
 
 sudo apt install python3
 
+sudo apt install python3-pip
+
 python3 -m pip install --upgrade pip
 
 pip install scikit-learn
@@ -47,8 +49,6 @@ sudo npm install hexo-cli -g
 # Rust
 
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-
-1
 
 # C++ & C
 
