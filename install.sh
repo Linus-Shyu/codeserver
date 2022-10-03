@@ -46,6 +46,8 @@ sudo npm install @vue/cli -g
 
 sudo npm install hexo-cli -g
 
+npm install hexo-deployer-git --save
+
 # Rust
 
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
