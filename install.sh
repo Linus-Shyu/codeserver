@@ -50,6 +50,8 @@ sudo npm install hexo-cli -g
 
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
+source "$HOME/.cargo/env"
+
 # C++ & C
 
 sudo apt install g++
