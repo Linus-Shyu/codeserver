@@ -6,15 +6,23 @@ sudo apt update
 
 sudo apt install curl git openssh-server net-tools
 
+echo y
+
 # vim
 
 sudo apt install vim
+
+echo y
 
 # python
 
 sudo apt install python3
 
+echo y
+
 sudo apt install python3-pip
+
+echo y
 
 python3 -m pip install --upgrade pip
 
@@ -34,7 +42,11 @@ pip install numpy
 
 sudo apt install nodejs
 
+echo y
+
 sudo apt install npm
+
+echo y
 
 # Vue
 
@@ -54,11 +66,17 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 source "$HOME/.cargo/env"
 
+echo 1
+
 # C++ & C
 
 sudo apt install g++
 
+echo y
+
 sudo apt install gcc
+
+echo y
 
 # BT
 
