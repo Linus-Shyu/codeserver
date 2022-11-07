@@ -1,3 +1,4 @@
+#!/bin/tail -1
 # renew
 
 sudo apt update
